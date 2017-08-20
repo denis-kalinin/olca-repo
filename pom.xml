@@ -18,6 +18,11 @@
 			<name>SpringSource Enterprise Bundle Repository - SpringSource Bundle Releases</name> 
 			<url>http://repository.springsource.com/maven/bundles/release</url> 
 		</repository>
+		<repository>
+			<id>olca-repo</id>
+			<name>OpenLCA Nexus at OpenShift</name>
+			<url>http://nexus-olca.a3c1.starter-us-west-1.openshiftapps.com/nexus/content/repositories/snapshots/</url>
+		</repository>
 	</repositories>
 
 	<build>
